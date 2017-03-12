@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TableLayout
+        android:stretchColumns="0,1"
+        android:id="@+id/details"
+        android:paddingTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="600dp">
+    </TableLayout>
+
+    <Button
+        android:text="Delete"
+        android:layout_width="120dp"
+        android:id="@+id/deleteSite"
+        android:layout_marginBottom="26dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
